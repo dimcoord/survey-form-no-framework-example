@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <section class="header">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec ultrices tincidunt arcu non sodales neque sodales ut. Quisque id diam vel quam elementum pulvinar etiam. Justo nec ultrices dui sapien eget mi proin sed libero. Justo donec enim diam vulputate ut pharetra sit amet.</p>
+    </section>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name of respondent: <input id="name" type="text" placeholder="John Doe" required /></label>
+      </fieldset>
+      <fieldset>
+        <label id="email-label" for="email">Email of respondent: <input id="email" type="email" placeholder="example@example.com" required /></label>
+      </fieldset>
+      <fieldset>
+        <label id="number-label" for="number">Age of respondent: <input id="number" type="number" min="13" max="120" placeholder="(Input your age between 13-120)" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">Where did you find this survey?
+          <select id="dropdown">
+            <option>(select one)</option>
+            <option>Newsletter</option>
+            <option>Social Media</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>How much do you earn a year?</label>
+        <label for="income1" name="income"><input id="income1" type="radio" value="income1" name="income" required />50,000 USD</label>
+        <label for="income1" name="income"><input id="income1" type="radio" value="income2" name="income" required />80,000 USD</label>
+        <label for="income1" name="income"><input id="income1" type="radio" value="income3" name="income" required />100,000 USD</label>
+        <label for="income4" name="income"><input id="income4" type="radio" value="income4" name="income" required />200,000 USD</label>
+        <label for="income5"><input id="income5" type="radio" value="income5" name="income" required />500,000 USD</label>
+      </fieldset>
+      <fieldset>
+        <label>What are you investing your money to?</label>
+        <label for="invest1" name="invest"><input type="checkbox" id="invest1" value="invest1" required />Foreign Exchange (Forex)</label>
+        <label for="invest2" name="invest"><input type="checkbox" id="invest2" value="invest2" required />Foreign Exchange (Forex)</label>
+      </fieldset>
+      <fieldset>
+        <label>What do you think people should do about their investment?</label>
+        <textarea placeholder="Tell us what you think!"></textarea>
+      </fieldset>
+      <button id="submit" type="submit">Submit</button>
+
+
+
+  </body>
+
+  <footer>
+    <h3>Dimastio Setiawan @ <a href="https://dimcord.my.id/" target="_blank">dimcord.my.id</a></h3>
+  </footer>
+
+</html>

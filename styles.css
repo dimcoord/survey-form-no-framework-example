@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(#3b3b4f 90%, #3b3b3f);
+    color: #ffffff;
+    font-family: Tahoma;
+  }
+  
+  footer {
+    text-align: center;
+    margin: 50px auto 50px auto;
+    max-width: 550px;
+  }
+  
+  .header {
+    max-width: 550px;
+    margin: 50px auto 50px auto;
+    text-align: center;
+  }
+  
+  #title {
+    font-size: 3rem;
+  }
+  
+  a {
+    color: grey;
+  }
+  
+  fieldset {
+    display: block;
+    background-color: #36364B;
+    border: none;
+    border-radius: 25px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 25px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input, textarea, button {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: Tahoma;
+    color: #ffffff;
+    background-color: #36364B;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #1B1B2D
+  }
+  
+  button {
+    width: 50%;
+    margin: 2rem auto;
+    border: none;
+    box-shadow: 0px 0px 10px grey;
+  }
+  
+  button:hover {
+    background-color: grey;
+    color: #3b3b3f;
+    box-shadow: 0px 0px 10px white;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+    height: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  label[name="income"] {
+    display: inline-block;
+    width: 10%;
+    margin-right: 11%;
+  }
+  
+  label[for="income5"] {
+    display: inline-block;
+    width: 10%;
+    margin-right: none;
+  }
+  
+  input[type="checkbox"] {
+    display: grid;
+    height: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  label[name="invest"] {
+    display: grid;
+    text-align: left;
+  }
+  
+  select {
+    display: block;
+    margin-top: 1rem;
+    background-color: #36364B;
+    color: white;
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #1B1B2D
+  }
